@@ -1,5 +1,5 @@
 import React from 'react'
-import { ACTIONS } from './App'
+import { ACTIONS } from './CalcLogic';
 
 function DigitButton({dispatch, digit}) {
   return (
