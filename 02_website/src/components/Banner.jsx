@@ -11,7 +11,7 @@ function Banner() {
                 <Typed className='pl-3 text-[#35FDD2]'
                     strings={['web development',
                     'machine learning',
-                    'project development']}
+                    'project management']}
                     typeSpeed={80}
                     backDelay={150}
                     backSpeed={100}
@@ -19,7 +19,7 @@ function Banner() {
                     loop
                 />
                 <br></br>
-                <button className='bg-[#4F7CAC] hover:bg-[#476F9A] text-white px-3 py-1 rounded text-[35px] mt-6 font-thin '>Get started</button>
+                <button className='bg-[#4F7CAC] hover:bg-[#476F9A] delay-300 text-white px-3 py-1 rounded text-[35px] mt-6 font-thin '>Get started</button>
                     
                 
             </div>
