@@ -4,9 +4,9 @@ function Header() {
     const [toggle, setToggle] = useState(false)
   return (
     <div className='bg-[#64A6BD] p-4'>
-        <div className='max-w-[1240px] py-[30px] items-center border flex justify-between border-black mx-auto'>
+        <div className='max-w-[1240px] py-[30px] items-center flex justify-between mx-auto'>
             <div className='text-3xl text-[#272838] font-bold'>
-                WsCube Tech
+                OsPlay Tech
             </div>
            { toggle ?
             <AiOutlineClose onClick={()=>setToggle(!toggle)} className='md:hidden block text-[#e4fde1] text-3xl' />
