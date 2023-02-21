@@ -7,6 +7,8 @@ import Learn from './components/Learn';
 import webImg from './assets/img/web dev.jpeg'
 import ml from "./assets/img/ml.jpeg"
 import pm from "./assets/img/pm.jpeg"
+import NewsLetter from './components/NewsLetter';
+import Plans from './components/Plans';
 
 const web = 'Web Development';
 const webInfo = 'Web development creates websites through coding and design. It includes front-end and back-end development and aims to create user-friendly, secure, and visually appealing websites.'
@@ -24,6 +26,8 @@ function App() {
       <Learn techName={web} info={webInfo} image={webImg} />
       <Learn techName={ML} info={mlInfo} image={ml} />
       <Learn techName={PM} info={pmInfo} image={pm} />
+      <NewsLetter />
+      <Plans />
     </div>
   );
 }
