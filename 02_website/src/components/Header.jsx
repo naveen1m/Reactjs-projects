@@ -13,7 +13,7 @@ function Header() {
             :
             <AiOutlineMenu onClick={() => setToggle(!toggle)} className='md:hidden block text-[#e4fde1] text-3xl' />
             }
-            <ul className='hidden md:flex text-[#e4fde1] gap-5'>
+            <ul className='hidden md:flex text-[#e4fde1] gap-5 cursor-pointer'>
                 <li>Home</li>
                 <li>Company</li>
                 <li>Resources</li>
@@ -21,7 +21,7 @@ function Header() {
                 <li>Contacts</li>
             </ul>
             {/* Responsive */}
-            <ul className= {`duration-300 md:hidden w-full h-screen  text-[#EBEBEB] fixed bg-[#58A4B0] top-[180px] ${toggle?'left-[-55%]':'left-[-100%]'}`} >
+            <ul className= {`duration-300 md:hidden w-full h-screen  text-[#EBEBEB] fixed bg-[#58A4B0] cursor-pointer top-[180px] ${toggle?'left-[-55%]':'left-[-100%]'}`} >
                 <li className='p-2 ml-[60%]'>Home</li>
                 <li className='p-2 ml-[60%]'>Company</li>
                 <li className='p-2 ml-[60%]'>Resources</li>
